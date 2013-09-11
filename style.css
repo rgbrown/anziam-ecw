@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', helvetica, Sans-Serif;
+}
+
+em {
+    color: red
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 480px;
+    min-width: 400px;
+}
+
+.speaker {
+    padding: 20px;
+    float: left
+}
+.speaker img {
+    width: 100px
+}
+
+.speaker .caption {
+    color: red
+}
+
+
+
