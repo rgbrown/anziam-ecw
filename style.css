@@ -2,28 +2,52 @@ body {
     font-family: 'Open Sans', helvetica, Sans-Serif;
 }
 
-em {
+.content em {
     color: red
 }
 
-#main {
+.bg-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url('figures/bg.jpg') repeat-y;
+    background-position: center top;
+}
+
+.content {
+    padding: 50px;
+    border-color: rgba(100,100,100,1);
+    border-width: 10px;
+    border-style: outset;
     margin-left: auto;
     margin-right: auto;
-    
-    width: 480px;
+    background-color: rgba(255,255,255,0.8);
+    margin-top: 50px;
+    width: 65%;
     min-width: 400px;
 }
 
 .speaker {
-    padding: 20px;
-    float: left
+    height: 200px;
+    width: 100%;
 }
 .speaker img {
-    width: 100px
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 180px;
+    float: left;
+}
+.speaker .name {
+    color: Red;
+    float: left;
 }
 
 .speaker .caption {
-    color: red
+}
+
+.speaker h3 {
 }
 
 
