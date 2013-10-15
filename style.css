@@ -31,11 +31,11 @@ body {
 }
 
 .speaker {
-    height: 200px;
     width: 100%;
+    min-height: 200px;
+    padding-left: 10px;
 }
 .speaker img {
-    padding-left: 10px;
     padding-right: 10px;
     height: 180px;
     float: left;
